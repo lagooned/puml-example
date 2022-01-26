@@ -1,0 +1,17 @@
+
+#+title: plantuml example
+#+startup: inlineimages
+
+#+begin_src plantuml :file seq-multiline-ex.png
+participant Participant [
+    =Title
+    ----
+    ""SubTitle""
+]
+
+participant Bob
+Participant -> Bob
+#+end_src
+
+#+RESULTS:
+[[file:seq-multiline-ex.png]]
