@@ -15,3 +15,5 @@ Participant -> Bob
 
 #+RESULTS:
 [[file:seq-multiline-ex.png]]
+
+#+HTML: <img src="seq-multiline-ex.png">
