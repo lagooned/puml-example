@@ -1,8 +1,9 @@
 
-#+title: plantuml example
+#+title: puml example
 #+startup: inlineimages
 
-#+begin_src plantuml :file seq-multiline-ex.png
+#+begin_src plantuml :tangle seq-diagram.puml :file seq-multiline-ex.png
+@startuml
 participant Participant [
     =Title
     ----
@@ -11,6 +12,7 @@ participant Participant [
 
 participant Bob
 Participant -> Bob
+@enduml
 #+end_src
 
 #+RESULTS:
