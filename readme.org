@@ -19,3 +19,8 @@ Participant -> Bob
 [[file:seq-multiline-ex.png]]
 
 #+HTML: <img src="seq-multiline-ex.png">
+
+;; Local Variables:
+;; eval: (add-hook 'org-babel-after-execute-hook (lambda () (org-redisplay-inline-images)) nil t)
+;; eval: (setq-local org-confirm-babel-evaluate nil)
+;; End:
