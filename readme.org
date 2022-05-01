@@ -2,6 +2,7 @@
 #+title: puml example
 #+startup: inlineimages
 
+#+name: 9e3929dc68b83bc365323ddc552e4379
 #+begin_src plantuml :tangle seq-diagram.puml :file seq-multiline-ex.png
 @startuml
 participant Participant [
@@ -15,7 +16,7 @@ Participant -> Bob
 @enduml
 #+end_src
 
-#+RESULTS:
+#+RESULTS: 9e3929dc68b83bc365323ddc552e4379
 [[file:seq-multiline-ex.png]]
 
 #+HTML: <img src="seq-multiline-ex.png">
